@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>BulletinMeteo.h</itemPath>
+      <itemPath>BulletinMeteoFake.h</itemPath>
+      <itemPath>Etat.h</itemPath>
+      <itemPath>IHM_Serre.h</itemPath>
+      <itemPath>Observable.h</itemPath>
+      <itemPath>Observateur.h</itemPath>
+      <itemPath>SupervisionSerre.h</itemPath>
+      <itemPath>VueMeteo.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>Etat.ui</itemPath>
+      <itemPath>IHM_Serre.ui</itemPath>
+      <itemPath>SupervisionSerre.ui</itemPath>
+      <itemPath>VueMeteo.ui</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>BulletinMeteo.cpp</itemPath>
+      <itemPath>BulletinMeteoFake.cpp</itemPath>
+      <itemPath>Etat.cpp.cc</itemPath>
+      <itemPath>IHM_Serre.cpp.cc</itemPath>
+      <itemPath>Observable.cpp</itemPath>
+      <itemPath>Observateur.cpp</itemPath>
+      <itemPath>SupervisionSerre.cpp.cc</itemPath>
+      <itemPath>VueMeteo.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="4">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <modules>core gui widgets</modules>
+      </qt>
+      <compileType>
+      </compileType>
+      <item path="BulletinMeteo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BulletinMeteo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BulletinMeteoFake.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BulletinMeteoFake.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Etat.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Etat.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Etat.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IHM_Serre.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IHM_Serre.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IHM_Serre.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Observable.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Observable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Observateur.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Observateur.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SupervisionSerre.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SupervisionSerre.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SupervisionSerre.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VueMeteo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="VueMeteo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VueMeteo.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="4">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <buildMode>1</buildMode>
+        <modules>core gui widgets</modules>
+      </qt>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="BulletinMeteo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BulletinMeteo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="BulletinMeteoFake.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="BulletinMeteoFake.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Etat.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Etat.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Etat.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IHM_Serre.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IHM_Serre.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IHM_Serre.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Observable.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Observable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Observateur.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Observateur.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SupervisionSerre.cpp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SupervisionSerre.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SupervisionSerre.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VueMeteo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="VueMeteo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VueMeteo.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
